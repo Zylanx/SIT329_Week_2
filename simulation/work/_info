@@ -1,0 +1,103 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+vfull_adder
+!s110 1627317967
+!i10b 1
+!s100 _EEaa`U9Jd`CgGYdHdj_;0
+Z0 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IJiM9OX?jF1:mJXz^U4O^93
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/mattz/OneDrive/Deakin/Comp Sci/2021/T2/SIT329/Assignments/Week_2/full_adder/simulation
+w1627315336
+8C:/Users/mattz/OneDrive/Deakin/Comp Sci/2021/T2/SIT329/Assignments/Week_2/full_adder/hdl/full_adder.v
+FC:/Users/mattz/OneDrive/Deakin/Comp Sci/2021/T2/SIT329/Assignments/Week_2/full_adder/hdl/full_adder.v
+!i122 7
+L0 3 34
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1627317967.000000
+!s107 C:/Users/mattz/OneDrive/Deakin/Comp Sci/2021/T2/SIT329/Assignments/Week_2/full_adder/hdl/full_adder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/mattz/OneDrive/Deakin/Comp Sci/2021/T2/SIT329/Assignments/Week_2/full_adder/hdl/full_adder.v|
+!i113 1
+Z4 o-work work
+Z5 tCvgOpt 0
+vfull_adder_tb
+Z6 !s110 1627317968
+!i10b 1
+!s100 WUjzeDTPKWeb5g@k:69JY2
+R0
+IkEfNbe_bobhGLl4VChfAF1
+R1
+R2
+w1627317941
+8C:/Users/mattz/OneDrive/Deakin/Comp Sci/2021/T2/SIT329/Assignments/Week_2/full_adder/testbench/full_adder_tb.v
+FC:/Users/mattz/OneDrive/Deakin/Comp Sci/2021/T2/SIT329/Assignments/Week_2/full_adder/testbench/full_adder_tb.v
+!i122 9
+L0 3 76
+R3
+r1
+!s85 0
+31
+Z7 !s108 1627317968.000000
+!s107 C:/Users/mattz/OneDrive/Deakin/Comp Sci/2021/T2/SIT329/Assignments/Week_2/full_adder/testbench/full_adder_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/mattz/OneDrive/Deakin/Comp Sci/2021/T2/SIT329/Assignments/Week_2/full_adder/testbench/full_adder_tb.v|
+!i113 1
+R4
+R5
+vhalf_adder
+R6
+!i10b 1
+!s100 @ZWkeJ093Zn:;lRhOao>i1
+R0
+Iik3Rg`k:ChfK[6nfSPhBC2
+R1
+R2
+w1627309610
+8C:/Users/mattz/OneDrive/Deakin/Comp Sci/2021/T2/SIT329/Assignments/Week_2/full_adder/hdl/half_adder.v
+FC:/Users/mattz/OneDrive/Deakin/Comp Sci/2021/T2/SIT329/Assignments/Week_2/full_adder/hdl/half_adder.v
+!i122 8
+L0 3 12
+R3
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/mattz/OneDrive/Deakin/Comp Sci/2021/T2/SIT329/Assignments/Week_2/full_adder/hdl/half_adder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/mattz/OneDrive/Deakin/Comp Sci/2021/T2/SIT329/Assignments/Week_2/full_adder/hdl/half_adder.v|
+!i113 1
+R4
+R5
+vhalfadder_tb
+R6
+!i10b 1
+!s100 _]OW`1EI^zCXZGQJI:?gR0
+R0
+I607OZNWm_kekiMiWnIf^D2
+R1
+R2
+w1627308409
+8C:/Users/mattz/OneDrive/Deakin/Comp Sci/2021/T2/SIT329/Assignments/Week_2/full_adder/testbench/half_adder_tb.v
+FC:/Users/mattz/OneDrive/Deakin/Comp Sci/2021/T2/SIT329/Assignments/Week_2/full_adder/testbench/half_adder_tb.v
+!i122 10
+L0 3 45
+R3
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/mattz/OneDrive/Deakin/Comp Sci/2021/T2/SIT329/Assignments/Week_2/full_adder/testbench/half_adder_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/mattz/OneDrive/Deakin/Comp Sci/2021/T2/SIT329/Assignments/Week_2/full_adder/testbench/half_adder_tb.v|
+!i113 1
+R4
+R5

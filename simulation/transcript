@@ -1,0 +1,71 @@
+# Compile of full_adder.v was successful.
+# Compile of half_adder.v was successful.
+# Compile of full_adder_tb.v failed with 8 errors.
+# Compile of half_adder_tb.v was successful.
+# 4 compiles, 1 failed with 8 errors.
+# Compile of full_adder_tb.v failed with 8 errors.
+# Compile of full_adder_tb.v failed with 8 errors.
+# Compile of full_adder.v was successful.
+# Compile of half_adder.v was successful.
+# Compile of full_adder_tb.v was successful.
+# Compile of half_adder_tb.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui work.full_adder_tb
+# vsim -gui work.full_adder_tb 
+# Start time: 02:44:24 on Jul 27,2021
+# Loading work.full_adder_tb
+# Loading work.full_adder
+# Loading work.half_adder
+run -all
+# a=0, b=0, cin=0, s=0, cout=0
+# a=0, b=0, cin=1, s=1, cout=0
+# a=0, b=1, cin=0, s=1, cout=0
+# a=0, b=1, cin=1, s=0, cout=1
+# a=1, b=0, cin=0, s=1, cout=0
+# a=1, b=0, cin=1, s=0, cout=1
+# a=1, b=1, cin=0, s=0, cout=1
+# a=1, b=1, cin=1, s=1, cout=1
+# ** Note: $stop    : C:/Users/mattz/OneDrive/Deakin/Comp Sci/2021/T2/SIT329/Assignments/Week_2/full_adder/testbench/full_adder_tb.v(75)
+#    Time: 80 ns  Iteration: 0  Instance: /full_adder_tb
+# Break in Module full_adder_tb at C:/Users/mattz/OneDrive/Deakin/Comp Sci/2021/T2/SIT329/Assignments/Week_2/full_adder/testbench/full_adder_tb.v line 75
+add wave -position insertpoint sim:/full_adder_tb/*
+run -all
+vsim -gui work.full_adder_tb
+# ** Error: Acs sdne.
+# 
+#        Unable to replace existing ini file (C:/Users/mattz/OneDrive/Deakin/Comp Sci/2021/T2/SIT329/Assignments/Week_2/full_adder/simulation/full_adder.mpf).  File can not be renamed.
+# End time: 02:46:00 on Jul 27,2021, Elapsed time: 0:01:36
+# Errors: 1, Warnings: 11
+# vsim -gui work.full_adder_tb 
+# Start time: 02:46:00 on Jul 27,2021
+# Loading work.full_adder_tb
+# Loading work.full_adder
+# Loading work.half_adder
+# Compile of full_adder.v was successful.
+# Compile of half_adder.v was successful.
+# Compile of full_adder_tb.v was successful.
+# Compile of half_adder_tb.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui work.full_adder_tb
+# End time: 02:46:15 on Jul 27,2021, Elapsed time: 0:00:15
+# Errors: 0, Warnings: 2
+# vsim -gui work.full_adder_tb 
+# Start time: 02:46:15 on Jul 27,2021
+# Loading work.full_adder_tb
+# Loading work.full_adder
+# Loading work.half_adder
+add wave -position insertpoint sim:/full_adder_tb/*
+run -all
+# a=0, b=0, cin=0, s=0, cout=0
+# a=0, b=0, cin=1, s=1, cout=0
+# a=0, b=1, cin=0, s=1, cout=0
+# a=0, b=1, cin=1, s=0, cout=1
+# a=1, b=0, cin=0, s=1, cout=0
+# a=1, b=0, cin=1, s=0, cout=1
+# a=1, b=1, cin=0, s=0, cout=1
+# a=1, b=1, cin=1, s=1, cout=1
+# ** Note: $stop    : C:/Users/mattz/OneDrive/Deakin/Comp Sci/2021/T2/SIT329/Assignments/Week_2/full_adder/testbench/full_adder_tb.v(75)
+#    Time: 80 ns  Iteration: 0  Instance: /full_adder_tb
+# Break in Module full_adder_tb at C:/Users/mattz/OneDrive/Deakin/Comp Sci/2021/T2/SIT329/Assignments/Week_2/full_adder/testbench/full_adder_tb.v line 75
+# End time: 02:52:59 on Jul 27,2021, Elapsed time: 0:06:44
+# Errors: 0, Warnings: 2
