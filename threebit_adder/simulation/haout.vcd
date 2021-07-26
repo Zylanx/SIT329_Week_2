@@ -1,0 +1,51 @@
+$date
+	Tue Jul 27 04:00:31 2021
+$end
+$version
+	ModelSim Version 2020.1
+$end
+$timescale
+	1ns
+$end
+
+$scope module threebit_adder_tb $end
+$var reg 3 ! t_a [2:0] $end
+$var reg 3 " t_b [2:0] $end
+$var reg 1 # t_carry_in $end
+$var wire 1 $ t_sum [2] $end
+$var wire 1 % t_sum [1] $end
+$var wire 1 & t_sum [0] $end
+$var wire 1 ' t_carry_out $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 !
+b0 "
+0#
+0&
+0%
+0$
+0'
+$end
+#10
+b11 !
+b100 "
+1$
+1&
+1%
+#20
+b10 !
+b10 "
+0%
+0$
+0&
+1$
+#30
+b101 !
+b1 "
+0$
+1'
+1$
+1%
+0'
