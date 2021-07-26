@@ -1,0 +1,57 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/mattz/OneDrive/Deakin/Comp Sci/2021/T2/SIT329/Assignments/Week_2/projects/threebit_adder/simulation
+valu
+Z0 !s110 1627326924
+!i10b 1
+!s100 aD5Tib<KYOhWd4_UFkFf=1
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IInA`P<2dX]0o[?@h@bUB:1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/mattz/OneDrive/Deakin/Comp Sci/2021/T2/SIT329/Assignments/Week_2/projects/alu/simulation
+w1627326905
+8C:/Users/mattz/OneDrive/Deakin/Comp Sci/2021/T2/SIT329/Assignments/Week_2/projects/alu/hdl/alu.v
+FC:/Users/mattz/OneDrive/Deakin/Comp Sci/2021/T2/SIT329/Assignments/Week_2/projects/alu/hdl/alu.v
+!i122 10
+L0 3 25
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1627326924.000000
+!s107 C:/Users/mattz/OneDrive/Deakin/Comp Sci/2021/T2/SIT329/Assignments/Week_2/projects/alu/hdl/alu.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/mattz/OneDrive/Deakin/Comp Sci/2021/T2/SIT329/Assignments/Week_2/projects/alu/hdl/alu.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+valu_tb
+R0
+!i10b 1
+!s100 I3LNo9NR_CCNniTYhOTJD2
+R1
+IQ4gWE?Fo<``:IFn]RK:lj1
+R2
+R3
+w1627326618
+8C:/Users/mattz/OneDrive/Deakin/Comp Sci/2021/T2/SIT329/Assignments/Week_2/projects/alu/testbench/alu_tb.v
+FC:/Users/mattz/OneDrive/Deakin/Comp Sci/2021/T2/SIT329/Assignments/Week_2/projects/alu/testbench/alu_tb.v
+!i122 11
+L0 3 117
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/mattz/OneDrive/Deakin/Comp Sci/2021/T2/SIT329/Assignments/Week_2/projects/alu/testbench/alu_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/mattz/OneDrive/Deakin/Comp Sci/2021/T2/SIT329/Assignments/Week_2/projects/alu/testbench/alu_tb.v|
+!i113 1
+R6
+R7
