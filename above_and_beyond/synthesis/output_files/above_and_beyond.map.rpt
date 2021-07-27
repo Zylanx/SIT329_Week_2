@@ -1,5 +1,5 @@
 Analysis & Synthesis report for above_and_beyond
-Tue Jul 27 23:11:31 2021
+Wed Jul 28 06:21:59 2021
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -18,7 +18,6 @@ Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
  10. Post-Synthesis Netlist Statistics for Top Partition
  11. Elapsed Time Per Partition
  12. Analysis & Synthesis Messages
- 13. Analysis & Synthesis Suppressed Messages
 
 
 
@@ -45,7 +44,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Tue Jul 27 23:11:31 2021       ;
+; Analysis & Synthesis Status     ; Successful - Wed Jul 28 06:21:59 2021       ;
 ; Quartus Prime Version           ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Revision Name                   ; above_and_beyond                            ;
 ; Top-level Entity Name           ; above_and_beyond                            ;
@@ -282,7 +281,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
-    Info: Processing started: Tue Jul 27 23:11:20 2021
+    Info: Processing started: Wed Jul 28 06:21:49 2021
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off above_and_beyond -c above_and_beyond
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 6 of the 6 processors detected
@@ -294,10 +293,9 @@ Info (12021): Found 1 design units, including 1 entities, in source file /users/
     Info (12023): Found entity 1: input_manager File: C:/Users/mattz/OneDrive/Deakin/Comp Sci/2021/T2/SIT329/Assignments/Week_2/projects/above_and_beyond/hdl/input_manager.v Line: 3
 Info (12127): Elaborating entity "above_and_beyond" for the top level hierarchy
 Info (12128): Elaborating entity "input_manager" for hierarchy "input_manager:input_manager" File: C:/Users/mattz/OneDrive/Deakin/Comp Sci/2021/T2/SIT329/Assignments/Week_2/projects/above_and_beyond/hdl/above_and_beyond.v Line: 28
-Warning (10230): Verilog HDL assignment warning at input_manager.v(60): truncated value with size 32 to match size of target (2) File: C:/Users/mattz/OneDrive/Deakin/Comp Sci/2021/T2/SIT329/Assignments/Week_2/projects/above_and_beyond/hdl/input_manager.v Line: 60
+Warning (10230): Verilog HDL assignment warning at input_manager.v(50): truncated value with size 32 to match size of target (2) File: C:/Users/mattz/OneDrive/Deakin/Comp Sci/2021/T2/SIT329/Assignments/Week_2/projects/above_and_beyond/hdl/input_manager.v Line: 50
 Info (12128): Elaborating entity "alu" for hierarchy "alu:alu" File: C:/Users/mattz/OneDrive/Deakin/Comp Sci/2021/T2/SIT329/Assignments/Week_2/projects/above_and_beyond/hdl/above_and_beyond.v Line: 36
 Info (286030): Timing-Driven Synthesis is running
-Info (144001): Generated suppressed messages file C:/Users/mattz/OneDrive/Deakin/Comp Sci/2021/T2/SIT329/Assignments/Week_2/projects/above_and_beyond/synthesis/output_files/above_and_beyond.map.smsg
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
 Info (21057): Implemented 39 device resources after synthesis - the final resource count might be different
@@ -305,15 +303,9 @@ Info (21057): Implemented 39 device resources after synthesis - the final resour
     Info (21059): Implemented 6 output pins
     Info (21061): Implemented 26 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 2 warnings
-    Info: Peak virtual memory: 4841 megabytes
-    Info: Processing ended: Tue Jul 27 23:11:31 2021
-    Info: Elapsed time: 00:00:11
-    Info: Total CPU time (on all processors): 00:00:23
-
-
-+------------------------------------------+
-; Analysis & Synthesis Suppressed Messages ;
-+------------------------------------------+
-The suppressed messages can be found in C:/Users/mattz/OneDrive/Deakin/Comp Sci/2021/T2/SIT329/Assignments/Week_2/projects/above_and_beyond/synthesis/output_files/above_and_beyond.map.smsg.
+    Info: Peak virtual memory: 4839 megabytes
+    Info: Processing ended: Wed Jul 28 06:21:59 2021
+    Info: Elapsed time: 00:00:10
+    Info: Total CPU time (on all processors): 00:00:19
 
 

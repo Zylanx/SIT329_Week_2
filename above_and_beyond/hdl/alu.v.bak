@@ -20,7 +20,7 @@ module alu
 			2'b01: {overflow, out} = a - b; // Subtract
 			2'b10: out = ~a; // Not
 			2'b11: out = a & b; // And
-			default: out = a + b;
+			default: out <= a + b;
 		endcase
 	end
 
