@@ -1,41 +1,8 @@
-# Compile of alu.v was successful.
-# Compile of alu_tb.v failed with 13 errors.
-# 2 compiles, 1 failed with 13 errors.
-# Compile of alu.v was successful.
-# Compile of alu_tb.v was successful.
-# 2 compiles, 0 failed with no errors.
 vsim -gui work.alu_tb
 # vsim -gui work.alu_tb 
-# Start time: 05:04:31 on Jul 27,2021
+# Start time: 23:42:01 on Jul 27,2021
 # Loading work.alu_tb
 # Loading work.alu
-add wave -position insertpoint sim:/alu_tb/*
-run -all
-# a= 0, b= 0, op=00, out=0.000000, overflow=0
-# a= 1, b= 0, op=00, out=1.000000, overflow=0
-# a= 0, b= 0, op=00, out=0.000000, overflow=0
-# a= 0, b= 0, op=00, out=0.000000, overflow=0
-# a= 0, b= 0, op=00, out=0.000000, overflow=0
-# a= 0, b= 0, op=00, out=0.000000, overflow=0
-# a= 0, b= 0, op=00, out=0.000000, overflow=0
-# a= 0, b= 0, op=00, out=0.000000, overflow=0
-# a= 0, b= 0, op=00, out=0.000000, overflow=0
-# a= 0, b= 0, op=00, out=0.000000, overflow=0
-# a= 0, b= 0, op=00, out=0.000000, overflow=0
-# a= 0, b= 0, op=00, out=0.000000, overflow=0
-# a= 0, b= 0, op=00, out=0.000000, overflow=0
-# ** Note: $stop    : C:/Users/mattz/OneDrive/Deakin/Comp Sci/2021/T2/SIT329/Assignments/Week_2/projects/alu/testbench/alu_tb.v(116)
-#    Time: 130 ns  Iteration: 0  Instance: /alu_tb
-# Break in Module alu_tb at C:/Users/mattz/OneDrive/Deakin/Comp Sci/2021/T2/SIT329/Assignments/Week_2/projects/alu/testbench/alu_tb.v line 116
-# Compile of alu.v was successful.
-# Compile of alu_tb.v was successful.
-# 2 compiles, 0 failed with no errors.
-restart -f -nolist -nowave -nolog -nobreak -novirtuals -noassertions -nofcovers -noatv
-# Closing VCD file "haout.vcd"
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.alu_tb
-# Loading work.alu
-add wave -position insertpoint sim:/alu_tb/*
 run -all
 # a= 0, b= 0, op=00, out=0.000000, overflow=0
 # a= 1, b= 0, op=00, out=1.000000, overflow=0
@@ -45,22 +12,17 @@ run -all
 # a= 4, b= 2, op=01, out=2.000000, overflow=0
 # a= 2, b= 4, op=01, out=14.000000, overflow=1
 # a=15, b= 1, op=01, out=14.000000, overflow=0
-# a= 2, b= 0, op=10, out=0.000000, overflow=0
-# a= 0, b= 0, op=10, out=1.000000, overflow=0
+# a= 2, b= 0, op=10, out=13.000000, overflow=0
+# a= 0, b= 0, op=10, out=15.000000, overflow=0
 # a=15, b= 0, op=10, out=0.000000, overflow=0
 # a=10, b= 5, op=11, out=0.000000, overflow=0
 # a=11, b= 5, op=11, out=1.000000, overflow=0
 # ** Note: $stop    : C:/Users/mattz/OneDrive/Deakin/Comp Sci/2021/T2/SIT329/Assignments/Week_2/projects/alu/testbench/alu_tb.v(116)
 #    Time: 130 ns  Iteration: 0  Instance: /alu_tb
 # Break in Module alu_tb at C:/Users/mattz/OneDrive/Deakin/Comp Sci/2021/T2/SIT329/Assignments/Week_2/projects/alu/testbench/alu_tb.v line 116
-# Compile of alu.v was successful.
-# Compile of alu_tb.v was successful.
-# 2 compiles, 0 failed with no errors.
+add wave -position insertpoint sim:/alu_tb/*
 restart -f -nolist -nowave -nolog -nobreak -novirtuals -noassertions -nofcovers -noatv
 # Closing VCD file "haout.vcd"
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.alu_tb
-# Loading work.alu
 add wave -position insertpoint sim:/alu_tb/*
 run -all
 # a= 0, b= 0, op=00, out=0.000000, overflow=0
@@ -79,34 +41,5 @@ run -all
 # ** Note: $stop    : C:/Users/mattz/OneDrive/Deakin/Comp Sci/2021/T2/SIT329/Assignments/Week_2/projects/alu/testbench/alu_tb.v(116)
 #    Time: 130 ns  Iteration: 0  Instance: /alu_tb
 # Break in Module alu_tb at C:/Users/mattz/OneDrive/Deakin/Comp Sci/2021/T2/SIT329/Assignments/Week_2/projects/alu/testbench/alu_tb.v line 116
-# Compile of alu.v was successful.
-# Compile of alu_tb.v was successful.
-# 2 compiles, 0 failed with no errors.
-# Compile of alu.v was successful.
-# Compile of alu_tb.v was successful.
-# 2 compiles, 0 failed with no errors.
-restart -f -nolist -nowave -nolog -nobreak -novirtuals -noassertions -nofcovers -noatv
-# Closing VCD file "haout.vcd"
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.alu_tb
-# Loading work.alu
-add wave -position insertpoint sim:/alu_tb/*
-run -all
-# a= 0, b= 0, op=00, out=0.000000, overflow=0
-# a= 1, b= 0, op=00, out=1.000000, overflow=0
-# a= 1, b= 3, op=00, out=4.000000, overflow=0
-# a=15, b= 2, op=00, out=1.000000, overflow=1
-# a= 2, b=15, op=00, out=1.000000, overflow=1
-# a= 4, b= 2, op=01, out=2.000000, overflow=0
-# a= 2, b= 4, op=01, out=14.000000, overflow=1
-# a=15, b= 1, op=01, out=14.000000, overflow=0
-# a= 2, b= 0, op=10, out=13.000000, overflow=0
-# a= 0, b= 0, op=10, out=15.000000, overflow=0
-# a=15, b= 0, op=10, out=0.000000, overflow=0
-# a=10, b= 5, op=11, out=0.000000, overflow=0
-# a=11, b= 5, op=11, out=1.000000, overflow=0
-# ** Note: $stop    : C:/Users/mattz/OneDrive/Deakin/Comp Sci/2021/T2/SIT329/Assignments/Week_2/projects/alu/testbench/alu_tb.v(116)
-#    Time: 130 ns  Iteration: 0  Instance: /alu_tb
-# Break in Module alu_tb at C:/Users/mattz/OneDrive/Deakin/Comp Sci/2021/T2/SIT329/Assignments/Week_2/projects/alu/testbench/alu_tb.v line 116
-# End time: 05:16:59 on Jul 27,2021, Elapsed time: 0:12:28
+# End time: 03:36:33 on Jul 28,2021, Elapsed time: 3:54:32
 # Errors: 0, Warnings: 1
